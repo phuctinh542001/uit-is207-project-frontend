@@ -1,7 +1,6 @@
-// Một số bài hát có thể bị lỗi do liên kết bị hỏng. Vui lòng thay thế liên kết khác để có thể phát
-// Some songs may be faulty due to broken links. Please replace another link so that it can be played
+import alltracks from "./alltracks.js"
 $(document).ready(function () {
-	const PlAYER_STORAGE_KEY = "F8_PLAYER";
+
 
 	const player = $("#player");
 	// const heading = $("header h2");
@@ -28,7 +27,6 @@ $(document).ready(function () {
 	const topBtnPlay = $(".top--btn");
 	const musicBtnPlay = $(".music--btn__play");
 	const musicBtnAdd = $(".music--btn__add");
-	// console.log(musicBtnPlay);
 
 	const app = {
 		currentIndex: 0,
@@ -37,11 +35,6 @@ $(document).ready(function () {
 		isRepeat: false,
 		config: {},
 		songs: alltracks,
-		// setConfig: function (key, value) {
-		//   this.config[key] = value;
-		//   // (2/2) Uncomment the line below to use localStorage
-		//   // localStorage.setItem(PlAYER_STORAGE_KEY, JSON.stringify(this.config));
-		// },
 		render: function () {
 			playlistPlaying.html(`
 				<div class="playlist__item playlist__item--active data-index="${this.currentIndex}">

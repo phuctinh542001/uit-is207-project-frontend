@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="{{asset('')}}">
 
     <!-- Favicons -->
     <link rel="icon" type="image/png" href="./assets/icon/favicon.ico" sizes="100x100">
@@ -23,8 +22,6 @@
 </head>
 
 <body>
-
-
 
     <aside id="sidebar">
         <div class="sidebar__content">
@@ -353,12 +350,12 @@
                 </div>
                 <!-- end title -->
                 <div class="col-xl-2 col-lg-3 col-sm-4 col-6">
-                    <div class="music__item" data-index="{{$new[$i]->id}}">
+                    <div class="music__item" data-index="101">
                         <div class="music__item--img">
                             <img src="./assets/img/music/BuocQuaNhau.jpg" alt="">
                         </div>
                         <div class="music__item--btn removeElement">
-                            <a href="{{$new[$i]->link}}" class="music--btn music--btn__download">
+                            <a href="./assets/music/BuocQuaNhau.mp3" class="music--btn music--btn__download">
                                 <i class="bi bi-download"></i>
                             </a>
                             <div class="music--btn music--btn__play">
@@ -371,6 +368,116 @@
                         <div class="music__item--info">
                             <span class="name--title"><b>Bước qua nhau</b></span>
                             <span class="name--title"><a href="artistsdetail.html">Vũ</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-sm-4 col-6">
+                    <div class="music__item" data-index="107">
+                        <div class="music__item--img">
+                            <img src="./assets/img/music/AiNo.jpg" alt="">
+                        </div>
+                        <div class="music__item--btn removeElement">
+                            <a href="./assets/music/AiNo.mp3" class="music--btn music--btn__download">
+                                <i class="bi bi-download"></i>
+                            </a>
+                            <div class="music--btn music--btn__play">
+                                <i class="bi bi-play-circle"></i>
+                            </div>
+                            <div class="music--btn music--btn__add">
+                                <i class="bi bi-plus-circle"></i>
+                            </div>
+                        </div>
+                        <div class="music__item--info">
+                            <span class="name--title"><b>Ái Nộ</b></span>
+                            <span class="name--title"><a href="artistsdetail.html">Masew, Khôi Vũ</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-sm-4 col-6">
+                    <div class="music__item" data-index="103">
+                        <div class="music__item--img">
+                            <img src="./assets/img/music/LacTroi.jpg" alt="">
+                        </div>
+                        <div class="music__item--btn removeElement">
+                            <a href="./assets/music/LacTroi.mp3" class="music--btn music--btn__download">
+                                <i class="bi bi-download"></i>
+                            </a>
+                            <div class="music--btn music--btn__play">
+                                <i class="bi bi-play-circle"></i>
+                            </div>
+                            <div class="music--btn music--btn__add">
+                                <i class="bi bi-plus-circle"></i>
+                            </div>
+                        </div>
+                        <div class="music__item--info">
+                            <span class="name--title"><b>Lạc Trôi</b></span>
+                            <span class="name--title"><a href="artistsdetail.html">Sơn Tùng M-TP</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-sm-4 col-6">
+                    <div class="music__item" data-index="110">
+                        <div class="music__item--img">
+                            <img src="./assets/img/music/NangTho.jpg" alt="">
+                        </div>
+                        <div class="music__item--btn removeElement">
+                            <a href="./assets/music/NangTho.mp3" class="music--btn music--btn__download">
+                                <i class="bi bi-download"></i>
+                            </a>
+                            <div class="music--btn music--btn__play">
+                                <i class="bi bi-play-circle"></i>
+                            </div>
+                            <div class="music--btn music--btn__add">
+                                <i class="bi bi-plus-circle"></i>
+                            </div>
+                        </div>
+                        <div class="music__item--info">
+                            <span class="name--title"><b>Nàng Thơ</b></span>
+                            <span class="name--title"><a href="artistsdetail.html">Hoàng Dũng</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-sm-4 col-6">
+                    <div class="music__item" data-index="106">
+                        <div class="music__item--img">
+                            <img src="./assets/img/music/ChayNgayDi.jpg" alt="">
+                        </div>
+                        <div class="music__item--btn removeElement">
+                            <a href="./assets/music/ChayNgayDi.mp3" class="music--btn music--btn__download">
+                                <i class="bi bi-download"></i>
+                            </a>
+                            <div class="music--btn music--btn__play">
+                                <i class="bi bi-play-circle"></i>
+                            </div>
+                            <div class="music--btn music--btn__add">
+                                <i class="bi bi-plus-circle"></i>
+                            </div>
+                        </div>
+                        <div class="music__item--info">
+                            <span class="name--title"><b>Chạy Ngay Đi</b></span>
+                            <span class="name--title"><a href="artistsdetail.html">Sơn Tùng M-TP</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-sm-4 col-6">
+                    <div class="music__item" data-index="108">
+                        <div class="music__item--img">
+                            <img src="./assets/img/music/HoaNoKhongMau.jpg" alt="">
+                        </div>
+                        <div class="music__item--btn removeElement">
+                            <a href="./assets/music/HoaNoKhongMau.mp3" class="music--btn music--btn__download">
+                                <i class="bi bi-download"></i>
+                            </a>
+                            <div class="music--btn music--btn__play">
+                                <i class="bi bi-play-circle"></i>
+                            </div>
+                            <div class="music--btn music--btn__add">
+                                <i class="bi bi-plus-circle"></i>
+                            </div>
+                        </div>
+                        <div class="music__item--info">
+                            <span class="name--title"><b>Hoa Nở Không Màu</b></span>
+                            <span class="name--title"><a href="artistsdetail.html">Hoài Lâm</a></span>
                         </div>
                     </div>
                 </div>
@@ -1025,12 +1132,10 @@
         </div>
     </footer>
 
-    <script src="{{route('alltracks')}}"></script>
-
     <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="./assets/js/bootstrap/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./assets/js/main.js"></script>
-    <script type="text/javascript" src="./assets/js/player.js"></script>
+    <script type="module" src="./assets/js/player.js"></script>
 </body>
 
 </html>

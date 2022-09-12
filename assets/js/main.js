@@ -8,7 +8,6 @@ $(document).ready(function () {
     const playlist = $("#playlist");
     const btnMusicItem = $(".music__item");
     const btnTopItem = $(".top__item");
-    // console.log(btnMusicInfo);
 
     myWindow.on("load", function () {
         if (Number(myWindow.width()) < 576) {
@@ -53,7 +52,6 @@ $(document).ready(function () {
         if (playerMoblie.css("transform") == "matrix(1, 0, 0, 1, 0, 0)" || playerMoblie.css("transform") == "none") {
             playerMoblie.css("transform", "translate(0, -196px)");
             playerMoblie.css("transition", "transform 0.5s");
-            // playerMoblie.css("z-index", "20");
         }
         else {
             playerMoblie.css("transform", "translate(0, 0)");
